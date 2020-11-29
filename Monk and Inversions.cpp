@@ -31,7 +31,7 @@ int main()
 			for (j = 0; j < n; ++j) {
 				for (x = i; x < n; ++x) {
 					for (y = j; y < n; ++y) {
-						if (arr[x][y] < arr[i][j]) c++;
+						if (arr[x][y] < arr[i][j]) cnt++;
 					}
 				}
 			}
